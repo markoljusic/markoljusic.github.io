@@ -1,0 +1,188 @@
+*
+{
+
+	margin: 0;
+	padding: 0;
+
+}
+body {
+	background-image: url(background.jpeg);
+
+}
+
+
+.main-nav
+{
+	float: right;
+	list-style: none;
+	margin-top: 40px;
+}
+
+.main-nav li
+{
+	display: inline-block;
+}
+
+.main-nav li a
+{
+	color: white;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: "Roboto", sans-serif;
+	font-size:  15px
+}
+
+.main-nav li.active:hover
+{
+	
+	
+}
+
+
+.main-nav li a:hover
+{
+	border: 2px solid yellow;
+	transition: 0.5s ease-in;
+	border-style: outset;
+	
+}
+
+.logo img
+{
+	
+	height: auto;
+	float: left;
+	
+	position: absolute;
+	margin-top: 20px;
+}
+
+.row
+{
+	max-width: 1200 px;
+	margin: auto;
+}
+
+
+.konj
+{
+	align-items: center;
+}
+
+
+h1
+{
+	position: absolute;
+	margin-left: 488px;
+	margin-top: 175px;
+	font-family: "Roboto", sans-serif;
+	color: yellow;
+	font-size: 55px;
+
+}
+
+table
+{
+	position: absolute;
+	margin-left: 455px;
+	margin-top: 300px;
+	font-family: "Roboto", sans-serif;
+	color: white;
+	font-size: 30px
+	
+	
+}
+
+tr {
+	text-align: left;
+	text-decoration: underline;
+}
+
+.contact-form
+{
+	font-family: "Roboto", sans-serif;
+	color: yellow;
+	position: absolute;
+	margin-bottom: 40px;
+}
+
+form
+{
+position: absolute;
+margin-top: -170px;
+text-align: center;
+size: 20px;
+padding: 40px 60px;
+
+font-size: 14px;
+}
+
+h2
+{
+font-size: 55px;
+margin-top: 175px;
+margin-left: 988px;
+}
+
+
+
+
+
+
+
+
+
+.input-group input
+{
+width: 100%;
+border: solid yellow;
+outline: none;
+padding: 10px;
+margin: 2%;
+display: inline-block;
+background: #fff;
+}
+.text-area textarea
+{
+width: 200%;
+border: solid yellow;
+outline: none;
+padding: 10px;
+margin: 2%;
+background: #fff;
+position: relative;
+margin-left: -70px;
+
+}
+
+
+.submit-btn
+{
+border: 2px solid white;
+transition: 0.5s ease-in;
+background-color: yellow;
+height: 30px;
+width: 100px;
+font: 15px "Roboto", sans-serif;
+border-style: outset;
+}
+
+
+.contact span
+{
+margin: 5%;
+color: yellow;
+text-decoration: underline;
+}
+.contact
+{
+margin: 5% 0 5% 35%;
+width: 15%;
+position: absolute;
+margin-top: 600px;
+margin-left: 790px;
+
+
+
+
+
